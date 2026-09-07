@@ -31,6 +31,7 @@ export class Login {
         Validators.email
       ]
     }),
+
     password: this.formBuilder.control('', {
       validators: [
         Validators.required,
@@ -72,6 +73,7 @@ export class Login {
     console.log('Login data:', credentials);
 
     // Later, call AuthService here:
+    //
     // this.authService.login(credentials).subscribe({
     //   next: () => this.isSubmitting.set(false),
     //   error: () => this.isSubmitting.set(false)
