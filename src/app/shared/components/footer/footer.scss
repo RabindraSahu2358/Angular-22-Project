@@ -1,0 +1,42 @@
+.footer {
+  background: #111827;
+  color: #ffffff;
+  margin-top: 60px;
+}
+
+.footer-content {
+  min-height: 160px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 40px;
+
+  h3 {
+    margin-bottom: 10px;
+  }
+
+  p {
+    color: #9ca3af;
+    max-width: 400px;
+    line-height: 1.6;
+  }
+}
+
+.footer-links {
+  display: flex;
+  gap: 24px;
+
+  a {
+    color: #d1d5db;
+
+    &:hover {
+      color: #ffffff;
+    }
+  }
+}
+
+.footer-bottom {
+  padding: 20px 0;
+  border-top: 1px solid #374151;
+  text-align: center;
+}
